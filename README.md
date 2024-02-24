@@ -32,3 +32,6 @@ A projekt a következő mappákból áll:
 - EmbeddedProto: git submodule
 - nucleo-h7a3zi-q: STM32CubeIDE projekt (a mikrovezérlő programja és a bináris állományok)
 - proto: a kommunikáció során használt proto fájlok struktúráját leíró proto fájl
+
+
+Nemes Balázs Boldizsár
