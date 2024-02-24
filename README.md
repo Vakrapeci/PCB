@@ -38,6 +38,8 @@ A projekt a következő mappákból áll:
 - nucleo-h7a3zi-q: STM32CubeIDE projekt (a mikrovezérlő programja és a bináris állományok)
 - proto: a kommunikáció során használt proto fájlok struktúráját leíró proto fájl
 
+A reference mappába feltöltöttem a *Projektfeladat mechatronikusoknak* című tárgyra készített okosóra projektemet és az önéletrajzomat.
+
 <p align="right">
 Nemes Balázs Boldizsár
 </p>
