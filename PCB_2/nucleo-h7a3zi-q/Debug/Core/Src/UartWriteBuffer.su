@@ -1,0 +1,11 @@
+../Core/Src/UartWriteBuffer.cpp:35:6:virtual void UartWriteBuffer::clear()	16	static
+../Core/Src/UartWriteBuffer.cpp:40:10:virtual uint32_t UartWriteBuffer::get_size() const	16	static
+../Core/Src/UartWriteBuffer.cpp:45:10:virtual uint32_t UartWriteBuffer::get_max_size() const	16	static
+../Core/Src/UartWriteBuffer.cpp:50:10:virtual uint32_t UartWriteBuffer::get_available_size() const	16	static
+../Core/Src/UartWriteBuffer.cpp:55:6:virtual bool UartWriteBuffer::push(uint8_t)	24	static
+../Core/Src/UartWriteBuffer.cpp:66:6:virtual bool UartWriteBuffer::push(const uint8_t*, uint32_t)	32	static
+../Core/Src/UartWriteBuffer.cpp:77:10:uint8_t* UartWriteBuffer::get_data()	16	static
+../Core/Inc/WriteBufferInterface.h:51:15:EmbeddedProto::WriteBufferInterface::~WriteBufferInterface()	16	static
+../Core/Inc/WriteBufferInterface.h:51:15:virtual EmbeddedProto::WriteBufferInterface::~WriteBufferInterface()	16	static
+../Core/Inc/UartWriteBuffer.h:44:5:UartWriteBuffer::~UartWriteBuffer()	16	static
+../Core/Inc/UartWriteBuffer.h:44:5:virtual UartWriteBuffer::~UartWriteBuffer()	16	static

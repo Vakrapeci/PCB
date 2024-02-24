@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;nucleo-f446re/stm32-uart.ioc&apos; to &apos;nucleo-f446re.ioc&apos;" description="Rename resource &apos;stm32-uart.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="stm32-uart.ioc" name="nucleo-f446re.ioc" stamp="1708649101173" updateReferences="true"/>
+</session>

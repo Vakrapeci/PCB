@@ -1,0 +1,16 @@
+../Core/Inc/ReadBufferInterface.h:47:7:constexpr EmbeddedProto::ReadBufferInterface::ReadBufferInterface()	16	static
+../Core/Inc/ReadBufferInterface.h:48:15:EmbeddedProto::ReadBufferInterface::~ReadBufferInterface()	16	static
+../Core/Inc/ReadBufferInterface.h:48:15:virtual EmbeddedProto::ReadBufferInterface::~ReadBufferInterface()	16	static
+../Core/Src/UartReadBuffer.cpp:33:1:UartReadBuffer::UartReadBuffer()	16	static
+../Core/Src/UartReadBuffer.cpp:41:10:virtual uint32_t UartReadBuffer::get_size() const	16	static
+../Core/Src/UartReadBuffer.cpp:46:10:virtual uint32_t UartReadBuffer::get_max_size() const	16	static
+../Core/Src/UartReadBuffer.cpp:51:6:virtual bool UartReadBuffer::peek(uint8_t&) const	24	static
+../Core/Src/UartReadBuffer.cpp:61:6:virtual bool UartReadBuffer::advance()	24	static
+../Core/Src/UartReadBuffer.cpp:71:6:virtual bool UartReadBuffer::advance(uint32_t)	24	static
+../Core/Src/UartReadBuffer.cpp:82:6:virtual bool UartReadBuffer::pop(uint8_t&)	24	static
+../Core/Src/UartReadBuffer.cpp:92:10:uint8_t* UartReadBuffer::get_data_array()	16	static
+../Core/Src/UartReadBuffer.cpp:97:11:uint32_t& UartReadBuffer::get_bytes_written()	16	static
+../Core/Src/UartReadBuffer.cpp:102:6:void UartReadBuffer::clear()	16	static
+../Core/Src/UartReadBuffer.cpp:108:6:bool UartReadBuffer::push(uint8_t&)	24	static
+../Core/Inc/UartReadBuffer.h:44:5:UartReadBuffer::~UartReadBuffer()	16	static
+../Core/Inc/UartReadBuffer.h:44:5:virtual UartReadBuffer::~UartReadBuffer()	16	static

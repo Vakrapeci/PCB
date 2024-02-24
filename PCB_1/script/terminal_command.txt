@@ -1,0 +1,7 @@
+$ cd ~/.STMCubeIDE/workspace_PCB/workspace_PCB/flood
+$ echo '1' > /dev/ttyACM0
+$ echo '0' > /dev/ttyACM0
+$ ./flood_random.sh
+$ ./flood_fix.sh
+$ ./flood_while.sh
+$ echo '0' > /dev/ttyACM0

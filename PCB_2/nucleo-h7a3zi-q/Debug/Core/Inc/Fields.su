@@ -1,0 +1,12 @@
+/opt/st/stm32cubeide_1.13.2/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.1.202309131626/tools/arm-none-eabi/include/c++/11.3.1/limits:1274:7:static constexpr long unsigned int std::numeric_limits<long unsigned int>::max()	4	static
+../Core/Inc/MessageSizeCalculator.h:57:12:virtual void EmbeddedProto::MessageSizeCalculator::clear()	16	static
+../Core/Inc/MessageSizeCalculator.h:63:16:virtual uint32_t EmbeddedProto::MessageSizeCalculator::get_size() const	16	static
+../Core/Inc/MessageSizeCalculator.h:69:16:virtual uint32_t EmbeddedProto::MessageSizeCalculator::get_max_size() const	16	static
+../Core/Inc/MessageSizeCalculator.h:75:16:virtual uint32_t EmbeddedProto::MessageSizeCalculator::get_available_size() const	16	static
+../Core/Inc/MessageSizeCalculator.h:81:12:virtual bool EmbeddedProto::MessageSizeCalculator::push(uint8_t)	16	static
+../Core/Inc/MessageSizeCalculator.h:90:12:virtual bool EmbeddedProto::MessageSizeCalculator::push(const uint8_t*, uint32_t)	24	static
+../Core/Inc/WriteBufferInterface.h:51:15:EmbeddedProto::WriteBufferInterface::~WriteBufferInterface()	16	static
+../Core/Inc/WriteBufferInterface.h:51:15:virtual EmbeddedProto::WriteBufferInterface::~WriteBufferInterface()	16	static
+../Core/Inc/Fields.cpp:36:12:uint32_t EmbeddedProto::Field::serialized_size() const	32	static
+../Core/Inc/MessageSizeCalculator.h:54:7:EmbeddedProto::MessageSizeCalculator::~MessageSizeCalculator()	16	static
+../Core/Inc/MessageSizeCalculator.h:54:7:virtual EmbeddedProto::MessageSizeCalculator::~MessageSizeCalculator()	16	static

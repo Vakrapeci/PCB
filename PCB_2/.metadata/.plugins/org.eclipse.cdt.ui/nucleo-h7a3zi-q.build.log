@@ -1,0 +1,10 @@
+23:24:50 **** Incremental Build of configuration Debug for project nucleo-h7a3zi-q ****
+make -j12 all 
+arm-none-eabi-size   nucleo-h7a3zi-q.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34392	    112	   2184	  36688	   8f50	nucleo-h7a3zi-q.elf
+Finished building: default.size.stdout
+ 
+
+23:24:51 Build Finished. 0 errors, 0 warnings. (took 170ms)
+

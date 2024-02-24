@@ -1,0 +1,34 @@
+image: atlassian/default-image:3
+
+clone: 
+  depth: full
+
+pipelines:
+  default:
+    - step:    
+        caches:
+          - git-modules
+          - sonar
+        script: 
+          - add-apt-repository ppa:ubuntu-toolchain-r/test -y
+          - apt-get update
+          - apt-get install -y jq gcc-9 g++-9 unzip cmake lib32ncurses6 lib32z1 lib32stdc++6 python3-venv python-is-python3 gcovr
+          - git submodule update --recursive --init
+          - source bitbucket-pipelines-dependencies.sh
+
+          - chmod +x build_test.sh code_coverage.sh
+          - ./build_test.sh
+          - ./code_coverage.sh
+
+          - cd build/test
+          - build-wrapper-linux-x86-64 --out-dir SonarQube-output make clean all
+          
+          - cd -
+          - export SONAR_SCANNER_OPTS="-Xmx2048m"
+          - sonar-scanner -Dproject.settings=sonar-project.properties -Dsonar.login=$SONAR_LOGIN
+                 
+definitions:
+  caches:
+    git-modules: .git/modules
+    sonar: .sonar/cache
+
